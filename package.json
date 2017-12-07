@@ -1,0 +1,48 @@
+{
+  "name": "stage-2-agustin-collazo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moove-it/node-stage-2-agustin-collazo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moove-it/node-stage-2-agustin-collazo/issues"
+  },
+  "homepage": "https://github.com/moove-it/node-stage-2-agustin-collazo#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-sinon": "^2.8.1",
+    "chai-spies": "^0.7.1",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.4.1",
+    "sinon-chai": "^2.12.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "config": "^1.26.1",
+    "counterpart": "^0.18.1",
+    "factory-girl": "^4.3.0",
+    "factory-girl-mongoose": "^1.0.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.2.1",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2",
+    "systeminformation": "^3.23.7"
+  }
+}

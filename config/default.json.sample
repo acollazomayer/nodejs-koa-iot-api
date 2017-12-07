@@ -1,0 +1,11 @@
+{
+  "port": 8080,
+  "database": {
+    "test": {
+      "localUrl": "mongodb://@localhost:27017/test"
+    },
+    "dev": {
+      "localUrl": "mongodb://iot:iot@localhost:27017/iot"
+    }
+  }
+}
